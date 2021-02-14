@@ -7,7 +7,7 @@
 
 I created HTML elements using JavaScript.
 
-I learned how to navigate the HTML DOM tree to locate specific HTML elements in order to control them.
+I learned how to navigate the HTML [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) tree to locate specific HTML elements in order to control them.
 
 I stored the [application state](https://stackoverflow.com/questions/8102674/what-is-application-state#:~:text=Application%20state%20is%20stored%20in,retrieving%20information%20in%20a%20database.) using the [Web storage Application programming interface (API)](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API).
 
