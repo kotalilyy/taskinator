@@ -1,8 +1,8 @@
 # Taskinator
 
-# Online project tracker to privately track your tasks and more
-
 ![business-4051775_640](https://user-images.githubusercontent.com/77229281/107890974-84d23e00-6ee1-11eb-9173-03a1f4a6b008.jpg)
+
+# Online project tracker to privately track your tasks and more
 
 
 I learned how to navigate the HTML DOM tree to locate specific HTML elements in order to control them.
