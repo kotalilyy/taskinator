@@ -1,4 +1,4 @@
-## Taskinator
+# Taskinator
 
 # Online project tracker to privately track your tasks and more
 
