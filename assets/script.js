@@ -34,23 +34,33 @@ var createTaskEl = function(taskDataObj) {
 };
 var createTaskActions = function(taskId) {
 
-  // create container to hold elements
+  // container to hold elements
   var actionContainerEl = document.createElement("div");
   actionContainerEl.className = "task-actions";
 
-  // create edit button
+  // edit button
   var editButtonEl = document.createElement("button");
   editButtonEl.textContent = "Edit";
   editButtonEl.className = "btn edit-btn";
   editButtonEl.setAttribute("data-task-id", taskId);
   actionContainerEl.appendChild(editButtonEl);
 
-// create delete button
+// delete button
 var deleteButtonEl = document.createElement("button");
 deleteButtonEl.textContent = "Delete";
 deleteButtonEl.className = "btn delete-btn";
 deleteButtonEl.setAttribute("data-task-id", taskId);
-
 actionContainerEl.appendChild(deleteButtonEl);
 
+// change status dropdown
+var statusSelectEl = document.createElement("select");
+statusSelectEl.setAttribute("name", "status-change");
+statusSelectEl.setAttribute("data-task-id", taskId);
+statusSelectEl.className = "select-status";
+actionContainerEl.appendChild(statusSelectEl);
 
+// status options
+var statusChoices = ["To Do", "In Progress", "Completed"];
+
+return actionContainerEl;
+};
