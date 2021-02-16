@@ -6,6 +6,9 @@ var tasksInProgressEl = document.querySelector("#tasks-in-progress");
 var tasksCompletedEl = document.querySelector("#tasks-completed");
 var pageContentEl = document.querySelector("#page-content");
 
+//array to hold tasks
+var tasks = [];
+
 var taskFormHandler = function (event) {
   event.preventDefault();
   var taskNameInput = document.querySelector("input[name='task-name']").value;
@@ -30,10 +33,13 @@ var taskFormHandler = function (event) {
   } else {
     var taskDataObj = {
       name: taskNameInput,
-      type: taskTypeInput
-    };
+      type: taskTypeInput,
+      status: "to do"
+    }
 
     createTaskEl(taskDataObj);
+    console.log(taskDataObj);
+    console.log(taskDataObj.status);
   }
 };
 
@@ -51,7 +57,10 @@ var createTaskEl = function (taskDataObj) {
   var taskActionsEl = createTaskActions(taskIdCounter);
   listItemEl.appendChild(taskActionsEl);
   tasksToDoEl.appendChild(listItemEl);
+  
+  taskDataObj.id = taskIdCounter;
 
+  tasks.push(taskDataObj);
   // increase task counter for next unique id
   taskIdCounter++;
 };
