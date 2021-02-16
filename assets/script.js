@@ -255,6 +255,8 @@ var loadTasks = function() {
   if (!savedTasks) {
     return false;
 }
+
+
 console.log("Saved tasks found!");
 //else, load up saved tasks
 
