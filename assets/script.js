@@ -41,11 +41,7 @@ var taskFormHandler = function (event) {
   }
 };
 
-<<<<<<< HEAD
 var createTaskEl = function (taskDataObj) {
-=======
-var createTaskEl = function(taskDataObj) {
->>>>>>> ecc4611881fe05695226406f5a1b6625cafb13a6
   var listItemEl = document.createElement("li");
   listItemEl.className = "task-item";
   listItemEl.setAttribute("data-task-id", taskIdCounter);
@@ -251,19 +247,11 @@ var deleteTask = function (taskId) {
   saveTasks();
 };
 
-<<<<<<< HEAD
 var saveTasks = function () {
   localStorage.setItem("tasks", JSON.stringify(tasks));
 };
 
 var loadTasks = function () {
-=======
-var saveTasks = function() {
-  localStorage.setItem("tasks", JSON.stringify(tasks));
-};
-
-var loadTasks = function() {
->>>>>>> ecc4611881fe05695226406f5a1b6625cafb13a6
   var savedTasks = localStorage.getItem("tasks");
   // if there are no tasks, set tasks to an empty array and return out of the function
   if (!savedTasks) {
