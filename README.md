@@ -13,7 +13,7 @@ I stored the [application state](https://stackoverflow.com/questions/8102674/wha
 
 I learned how to manage arrays more effectively using new methods, such as [push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push). This method adds any content between the parentheses to the end of the specified array.
 
-## Link Link
+## Live Link
 https://kotalilyy.github.io/taskinator/
 
 ## Screenshot
