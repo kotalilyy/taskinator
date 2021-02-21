@@ -20,5 +20,3 @@ https://kotalilyy.github.io/taskinator/
 <img width="504" alt="Screen Shot 2021-02-16 at 1 34 11 PM" src="https://user-images.githubusercontent.com/77229281/108112534-d7376a00-705b-11eb-8119-ba0a706256f6.png">
 
 
-## Contributions
-Made with ❤️ by Dakota Nelson
